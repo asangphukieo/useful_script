@@ -1,0 +1,580 @@
+
+Error: No input FASTA supplied!
+Use '-h' option for help.
+
+
+Error: No input FASTA supplied!
+Use '-h' option for help.
+
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+Use of uninitialized value $all_refseqs in scalar chomp at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 81.
+Use of uninitialized value $all_refseqs in split at /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/homology_intaRNA.pl line 83.
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::next_DocSum /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:255
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:34
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Response Error
+Too Many Requests
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/Root/Root.pm:449
+STACK: Bio::DB::GenericWebAgent::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/GenericWebAgent.pm:214
+STACK: Bio::DB::EUtilities::get_Response /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:35
+STACK: Bio::DB::EUtilities::get_Parser /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:58
+STACK: Bio::DB::EUtilities::get_ids /root/anaconda2/envs/JensCopraRNA2/lib/perl5/site_perl/5.22.0/Bio/DB/EUtilities.pm:135
+STACK: /root/anaconda2/envs/JensCopraRNA2/bin/coprarna_aux/get_refseq_from_refid.pl:26
+-----------------------------------------------------------

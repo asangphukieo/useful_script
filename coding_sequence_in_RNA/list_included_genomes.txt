@@ -1,0 +1,160 @@
+Bacillus halodurans C-125 	BA000004
+Bacillus pumilus SAFR-032 	CP000813
+Bacillus pseudofirmus OF4 	CP001878
+Bacillus pumilus strain SH-B9 	CP011007
+Bacillus subtilis subsp. spizizenii str. W23 	CP002183
+Bacillus sp. X1(2014) 	CP008855
+Bacillus subtilis strain MJ01 	CP018173
+Bacillus flexus strain KLBMP 4941 	CP016790
+Bacillus subtilis subsp. inaquosorum strain DE111 	CP013984
+Bacillus subtilis subsp. subtilis str. 168 	CP019663
+Bacillus subtilis subsp. subtilis str. 168 	CP019662
+Bacillus subtilis subsp. subtilis strain QB5412 	CP017312
+Bacillus gibsonii strain FJAT-10019 	CP017070
+Bacillus subtilis subsp. subtilis strain delta6 	CP015975
+Bacillus subtilis strain TO-A JPC 	CP011882
+Bacillus subtilis KCTC 1028 	CP011115
+Bacillus subtilis subsp. subtilis strain 3NA 	CP010314
+Bacillus subtilis assembly BS49Ch 	LN649259
+Bacillus subtilis TOA 	CP005997
+Bacillus subtilis subsp. subtilis str. 168 	AL009126
+Bacillus subtilis strain VV2 	CP017676
+Bacillus subtilis HJ5 	CP007173
+Bacillus sp. YP1 	CP010014
+Bacillus subtilis BSn5 	CP002468
+Bacillus xiamenensis strain VV3 	CP017786
+Bacillus filamentosus strain Hbe603 	CP011974
+Bacillus altitudinis strain W3 	CP011150
+Bacillus pumilus strain SH-B11 	CP010997
+Bacillus altitudinis strain GR-8 	CP009108
+Bacillus subtilis strain 29R7-12 	CP017763
+Bacillus subtilis strain KH2 	CP018184
+Bacillus pumilus 	AP014928
+Bacillus pumilus strain MTCC B6033 	CP007436
+Bacillus licheniformis strain SCCB 37 	CP014794
+Bacillus licheniformis strain SCDB 34 	CP014793
+Bacillus licheniformis strain SCDB 14 	CP014842
+Bacillus licheniformis strain SCK B11 	CP014795
+Bacillus sp. H15-1 	CP018249
+Bacillus licheniformis strain BL1202 	CP017247
+Bacillus licheniformis ATCC 14580 	CP000002
+Bacillus safensis strain BRM1 	CP018100
+Bacillus safensis strain U17-1 	CP015611
+Bacillus oceanisediminis 2691 	CP015506
+Bacillus paralicheniformis strain MDJK30 	CP020352
+Anoxybacillus flavithermus WK1 	CP000922
+Fictibacillus phosphorivorans strain G25-29 	CP015378
+Bacillus weihaiensis strain Alg07 	CP016020
+Bacillus sp. FJAT-18017 	CP012602
+Fictibacillus arsenicus strain G25-54 	CP016761
+Brevibacillus brevis NBRC 100599 	AP008955
+Anoxybacillus sp. B7M1 	CP015436
+Anoxybacillus sp. B2M1 	CP015435
+Bacillus methanolicus MGA3 	CP007739
+Bacillus infantis NRRL B-14911 	CP006643
+Bacillus glycinifermentans isolate BGLY assembly 	LT603683
+Bacillus subtilis subsp. globigii strain ATCC 49760 	CP014840
+Bacillus atrophaeus UCMB-5137 	CP011802
+Bacillus atrophaeus subsp. globigii strain BSS 	CP007640
+Anoxybacillus gonensis strain G2 	CP012152
+Bacillus simplex strain SH-B26 	CP011008
+Bacillus megaterium strain JX285 	CP018874
+Bacillus megaterium strain Q3 	CP010586
+Bacillus megaterium DSM319 	CP001982
+Bacillus velezensis strain JTYP2 	CP020375
+Bacillus velezensis strain sx01604 	CP018007
+Bacillus velezensis strain M75 	CP016395
+Bacillus velezensis strain S3-1 	CP016371
+Bacillus amyloliquefaciens strain B15 	CP014783
+Bacillus velezensis strain L-S60 	CP011278
+Bacillus velezensis strain L-H15 	CP010556
+Bacillus sp. 1NLA3E 	CP005586
+Bacillus velezensis strain GH1-13 	CP019040
+Bacillus velezensis strain CC09 	CP015443
+Bacillus velezensis strain YJ11-1-4 	CP011347
+Bacillus amyloliquefaciens subsp. amyloliquefaciens KHG19 	CP007242
+Bacillus velezensis strain JS25R 	CP009679
+Bacillus amyloliquefaciens subsp. plantarum CAU B946 	HE617159
+Bacillus thuringiensis strain Bc601 	CP015150
+Bacillus thuringiensis serovar kurstaki str. YBT-1520 	CP004858
+Bacillus thuringiensis serovar kurstaki str. HD73 	CP004069
+Bacillus megaterium WSH-002 	CP003017
+Bacillus smithii strain DSM 4216 	CP012024
+Bacillus pseudomycoides strain BTZ 	CP009651
+Halobacillus halophilus DSM 2266 	HE717023
+Bacillus sp. SDLI1 	CP013950
+Bacillus muralis strain G25-68 	CP017080
+Bacillus amyloliquefaciens strain RD7-7 	CP016913
+Bacillus subtilis strain ATCC 13952 	CP009748
+Bacillus amyloliquefaciens XH7 	CP002927
+Bacillus amyloliquefaciens LL3 	CP002634
+Bacillus amyloliquefaciens TA208 	CP002627
+Bacillus amyloliquefaciens DSM7 	FN597644
+Bacillus mycoides strain ATCC 6462 	CP009692
+Bacillus anthracis strain SPV842_15 	CP019588
+Bacillus anthracis strain Tyrol 4675 	CP018903
+Bacillus anthracis strain PR07 	CP012724
+Bacillus anthracis strain PR05 	CP012722
+Bacillus anthracis strain 2002013094 	CP009902
+Bacillus thuringiensis strain HD571 	CP009600
+Bacillus anthracis strain BA1015 	CP009544
+Bacillus anthracis str. Sterne 	CP009541
+Bacillus anthracis strain RA3 	CP009697
+Bacillus anthracis strain Ohio ACB 	CP009341
+Bacillus anthracis strain K3 	CP009331
+Bacillus cereus 03BB102 	CP009318
+Bacillus anthracis str. Turkey32 	CP009315
+Bacillus anthracis strain BFV 	CP007704
+Bacillus anthracis strain 2000031021 	CP007618
+Bacillus cereus AH187 	CP001177
+Bacillus cereus E33L 	CP009968
+Bacillus thuringiensis strain HD1011 	CP009335
+Bacillus cereus biovar anthracis str. CI 	CP001746
+Bacillus thuringiensis strain L-7601 	CP020002
+Bacillus thuringiensis strain KNU-07 	CP016588
+Bacillus thuringiensis serovar tolworthi 	AP014864
+Bacillus thuringiensis Bt18247 	CP015250
+Bacillus thuringiensis strain HD12 	CP014847
+Bacillus thuringiensis serovar indiana strain HD521 	CP010106
+Bacillus thuringiensis HD-771 	CP003752
+Bacillus thuringiensis BMB171 	CP001903
+Virgibacillus sp. 6R 	CP017762
+Bacillus thuringiensis MC28 	CP003687
+Bacillus anthracis strain BA1035 	CP009700
+Bacillus weihenstephanensis KBAB4 	CP000903
+Bacillus cereus strain FM1 	CP009369
+Bacillus cereus strain 03BB87 	CP009941
+Bacillus cereus FRI-35 	CP003747
+Bacillus thuringiensis strain CTC 	CP013274
+Oceanobacillus iheyensis HTE831 	BA000028
+Bacillus cytotoxicus NVH 391-98 	CP000764
+Lentibacillus amyloliquefaciens strain LAM0015 	CP013862
+Virgibacillus halodenitrificans strain PDB-F2 	CP017962
+Virgibacillus sp. SK37 	CP007161
+Geobacillus thermoleovorans strain FJAT-2391 	CP017071
+Geobacillus stearothermophilus 10 	CP008934
+Geobacillus sp. GHH01 	CP004008
+Geobacillus thermoleovorans CCB_US3_UF5 	CP003125
+Geobacillus sp. Y412MC52 	CP002442
+Geobacillus sp. C56-T3 	CP002050
+Geobacillus sp. Y412MC61 	CP001794
+Geobacillus kaustophilus HTA426 	BA000043
+Geobacillus sp. Y4.1MC1 	CP002293
+Parageobacillus thermoglucosidasius strain TM242 	CP016916
+Parageobacillus thermoglucosidasius strain NCIMB 11955 	CP016622
+Salimicrobium jeotgali strain MJ3 	CP011361
+Bacillus clausii strain ENTPro 	CP012475
+Bacillus clausii KSM-K16 	AP006627
+Geobacillus thermodenitrificans strain KCTC3902 	CP017694
+Aneurinibacillus sp. XH2 	CP014140
+Bacillus gobiensis strain FJAT-4402 	CP012600
+Geobacillus thermoleovorans strain KCTC 3570 	CP014335
+Geobacillus sp. WCH70 	CP001638
+Anoxybacillus amylolyticus strain DSM 15939 	CP015438
+Geobacillus subterraneus strain KCTC 3922 	CP014342
+Geobacillus genomosp. 3 strain JF8 	CP006254
+Bacillus coagulans strain BC-HY1 	CP017888
+Bacillus coagulans strain S-lac 	CP011939
+Bacillus coagulans strain HM-08 	CP010525
+Bacillus coagulans 36D1 	CP003056
+Bacillus coagulans 2-6 	CP002472

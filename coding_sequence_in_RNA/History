@@ -1,0 +1,54 @@
+### use build_tree conda
+
+#rename header
+python rename_header_to_make_tree_pattern2.py renamed_filtered_sr1_de-duplicated.fasta re_renamed_filtered_sr1_de-duplicated.fasta
+
+#call possible orf
+./ORFfinder -in re_renamed_filtered_sr1_de-duplicated.fasta -outfmt 1 -out ORF_re_renamed_filtered_sr1_de-duplicated.fasta -ml 75 -s 1
+
+
+#### call possible orf using orfm
+orfm re_renamed_filtered_sr1_de-duplicated.fasta > orfm_re_renamed_filtered_sr1_de-duplicated.fasta
+
+#make db
+makeblastdb -in orfm_re_renamed_filtered_sr1_de-duplicated.fasta -dbtype prot
+
+#-task blastp-short 
+blastp -db orfm_re_renamed_filtered_sr1_de-duplicated.fasta -query SR1P.fasta -out SR1P.blastout -max_target_seqs 10000 -evalue 1 -max_hsps 1 -outfmt '6 qseqid stitle evalue pident qstart qend sstart send sseq' -num_threads 5
+
+sort -u SR1P.blastout > u_SR1P.blastout
+
+###################################################
+###################################################
+
+# select possible ORF from blast output
+# cut blast match from starting site that matched to SR1P till the end of ORF
+# ------------------------ Blast matched , ORF 
+#      --------------- 	   SR1P
+#      ------------------- Example Output
+#
+
+python cut_orfm_matched_blastout.py
+python remove_identical_seq_from_same_genome.py orfm_SR1P.fasta u_orfm_SR1P.fasta
+python rename_fasta_by_selected_header2.py list_included_genomes.txt u_orfm_SR1P.fasta re_u_orfm_SR1P.fasta
+###################################################
+###################################################
+
+
+python rename_fasta_by_selected_header.py list_included_genomes.txt SR1P_blastout.fasta renamed_SR1P_blastout.fasta
+
+#ete3 build check
+#ete3 build workflows genetree
+ete3 build -w standard_fasttree -a ./renamed_SR1P_blastout.fasta -o coding/ --clearall --rename-dup-seqnames --seq-name-parser '(.+)' --no-seq-rename
+
+#make tree with seq alignment
+#python make_tree_alignment.py
+python ~/Documents/ALL_SCRIPT/make_tree_alignment.py coding/clustalo_default-none-none-fasttree_full/renamed_SR1P_blastout.fasta.final_tree.nw coding/clustalo_default-none-none-fasttree_full/renamed_SR1P_blastout.fasta.final_tree.used_alg.fa coding_align.pdf
+
+
+####count
+python count_sequence_length.py renamed_SR1P_blastout.fasta |cut -f1 -d' '|sort >coding_list.temp
+grep '>' re_no_redun_renamed_filtered_sr1_de-duplicated.fasta |cut -f1 |sed s/'>'/''/g |sort > before_coding.temp
+
+paste coding_list.temp coding_list.temp >test_after
+join before_coding.temp test_after -a1
